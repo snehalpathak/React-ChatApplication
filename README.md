@@ -4,6 +4,7 @@
 
 1. `npm install`
 2. `node server.js`
+3. Navigate to `http://localhost:4000` to access web application
 
 ### Application Functionalities
 
