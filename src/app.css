@@ -1,0 +1,125 @@
+body {
+  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-style: italic;
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+}
+
+.welcome-header {
+  margin: auto;
+  color: darkgreen;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  height: 60px;
+  background-color: sandybrown;
+}
+
+.nav:hover {
+  background-position: right center;
+}
+
+.nav > li {
+  margin: 15px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.nav > li.action:hover {
+  background-color: lavender;
+}
+
+.nav > li.logout {
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.login {
+  text-align: center;
+  width: 500px;
+  height: auto;
+  margin: 100px auto;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.add-message {
+  text-align: center;
+  width: 500px;
+  height: auto;
+  margin: 10px auto 1px auto;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+.users {
+  border: 1px solid black;
+  display: flexbox;
+  height: 400px;
+  overflow-y: scroll;
+  background: #f5f6f9;
+  line-height: 30px;
+  color: #666;
+  margin: auto;
+  width: 20%;
+  font-weight: 700;
+}
+
+.messages {
+  border: 1px solid black;
+  display: flexbox;
+  height: 400px;
+  overflow-y: scroll;
+  background: #f5f6f9;
+  line-height: 30px;
+  color: #666;
+  width: 40%;
+  margin: auto;
+}
+
+.user {
+  font-size: medium;
+  font-family: sans-serif;
+  margin: 5px 15px;
+}
+
+.timestamp {
+  font-size: 11px;
+}
+
+.message {
+  font-family: sans-serif;
+  margin: 5px 15px;
+  font-size: large;
+  font-weight: bold;
+}
+
+button {
+  margin: 10px 20px;
+  width: auto;
+  height: 30px;
+  font-weight: bold;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+  margin: 10px 20px;
+}
